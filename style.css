@@ -7,7 +7,9 @@
 
 .head{
     text-align: center;
-    
+    padding: 10px;
+    border-bottom: 2px solid black;
+    background-color: #33ffd8;
 }
 
 .container{
@@ -22,10 +24,12 @@
 .calculator{
     background: #3a4452;
     padding: 20px;
+    border: 3px solid black;
     border-radius: 10px;
+    width: 400px;
 }
 
-.calculator form input{
+.calculator button{
     border: 0;
     outline: 0;
     width: 60px;
@@ -40,13 +44,28 @@
     margin: 10px;
 }
 
-form .display{
+.display{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-center;
     margin: 20px 0;
+    border: 2px solid #33ffd8;
+    border-radius: 10px;
+    
 }
 
-form .display input{
+.display input{
     text-align: right;
-    flex: 1;
+    width: 100%;
+    border-radius: 10px;
+    color: black;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+button.equal{
+    width: 145px;
+}
+
+button.operator{
+    color: #33ffd8;
 }
